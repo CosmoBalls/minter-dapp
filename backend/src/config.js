@@ -7,20 +7,29 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Bored Ape Ball Sacks";
+const description = "Exactly what you may think they are!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Skins" },
-      { name: "Outfits" },
       { name: "Head" },
-      { name: "Neck" },
+      { name: "Outfits" },
       { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 40,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Skins" },
+      { name: "Head" },
+      { name: "Mouth" },
+      { name: "Neck" },
     ],
   },
 ];
@@ -36,7 +45,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://boredapeballsacks.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
