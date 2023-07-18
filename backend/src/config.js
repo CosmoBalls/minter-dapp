@@ -15,12 +15,12 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "background" },
-      { name: "skins" },
-      { name: "outfits" },
-      { name: "head" },
-      { name: "neck" },
-      { name: "mouth" },
+      { name: "Background" },
+      { name: "Skins" },
+      { name: "Outfits" },
+      { name: "Head" },
+      { name: "Neck" },
+      { name: "Mouth" },
     ],
   },
 ];
